@@ -1,7 +1,5 @@
 <template>
-  <div>
-    store
-  </div>
+  <div/>
 </template>
 
 <script lang="ts" setup>
