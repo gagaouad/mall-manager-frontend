@@ -20,18 +20,6 @@
         to="/rent"
         title="Payment"
       />
-      <!-- <v-list-item prepend-icon="mdi-view-dashboard">
-        <NuxtLink to="/">Tableau de bord</NuxtLink>
-      </v-list-item>
-      <v-list-item prepend-icon="mdi-store">
-        <NuxtLink to="/store">Magasin </NuxtLink>
-      </v-list-item>
-      <v-list-item prepend-icon="mdi-account-tie">
-        <NuxtLink to="/tenent">Locataire </NuxtLink>
-      </v-list-item>
-      <v-list-item prepend-icon="mdi-account-credit-card">
-        <NuxtLink to="/rent"> Payment</NuxtLink>
-      </v-list-item> -->
     </v-list>
   </v-navigation-drawer>
 </template>
