@@ -1,9 +1,16 @@
+<!-- <template>
+  <v-app>
+    <AppHeader />
+  </v-app>
+</template> -->
+
 <template>
   <v-app>
-    <v-main>
-      <slot />
-    </v-main>
-
-    <AppFooter />
+    <v-layout>
+      <AppHeader />
+      <v-main>
+        <slot />
+      </v-main>
+    </v-layout>
   </v-app>
 </template>

@@ -2,6 +2,4 @@
 //
 </script>
 
-<template>
-  <HelloWorld />
-</template>
+<template><div /></template>
