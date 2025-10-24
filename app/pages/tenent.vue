@@ -73,7 +73,7 @@
                 v-model="tenentModel.storeId"
                 :items="storeList"
                 item-title="name"
-                label="State"
+                label="Locataire"
                 item-value="id"
               />
             </v-col>
@@ -107,10 +107,10 @@ export default {
     return {
       headers: [
         { title: "Nom", key: "lastName", align: "start" },
-        { title: "Prénom", key: "firstName", align: "end" },
-        { title: "Numéro de téléphone", key: "phoneNumber", align: "end" },
-        { title: "Email", key: "email", align: "end" },
-        { title: "Nom du magasin", key: "store", align: "end" },
+        { title: "Prénom", key: "firstName", align: "start" },
+        { title: "Numéro de téléphone", key: "phoneNumber", align: "start" },
+        { title: "Email", key: "email", align: "start" },
+        { title: "Nom du magasin", key: "store", align: "start" },
         { title: "Actions", key: "actions", align: "end", sortable: false },
       ],
       dialog: false,

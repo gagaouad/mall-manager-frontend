@@ -90,8 +90,8 @@ export default {
     return {
       headers: [
         { title: "Nom du magasin", key: "name", align: "start" },
-        { title: "Addresse", key: "location", align: "end" },
-        { title: "Supérficie", key: "size", align: "end" },
+        { title: "Addresse", key: "location", align: "start" },
+        { title: "Supérficie", key: "size", align: "start" },
         { title: "Actions", key: "actions", align: "end", sortable: false },
       ],
       dialog: false,
